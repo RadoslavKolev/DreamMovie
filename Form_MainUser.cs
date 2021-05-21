@@ -14,7 +14,7 @@ namespace DreamMovie
         {
             Form_Movies movie = new Form_Movies();
             movie.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void button_SearchClick(object sender, EventArgs e)
