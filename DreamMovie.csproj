@@ -85,10 +85,100 @@
     <Compile Include="Form_MainUser.Designer.cs">
       <DependentUpon>Form_MainUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Movies.cs">
+    <Compile Include="MoviesInfo\6_Minutes_Till_Daylight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Movies.Designer.cs">
+    <Compile Include="MoviesInfo\6_Minutes_Till_Daylight.Designer.cs">
+      <DependentUpon>6_Minutes_Till_Daylight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Black_Widow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Black_Widow.Designer.cs">
+      <DependentUpon>Black_Widow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\F9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\F9.Designer.cs">
+      <DependentUpon>F9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Godzilla_vs_Kong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Godzilla_vs_Kong.Designer.cs">
+      <DependentUpon>Godzilla_vs_Kong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Jungle_Cruise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Jungle_Cruise.Designer.cs">
+      <DependentUpon>Jungle_Cruise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Killer_Among_Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Killer_Among_Us.Designer.cs">
+      <DependentUpon>Killer_Among_Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Mortal_Kombat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Mortal_Kombat.Designer.cs">
+      <DependentUpon>Mortal_Kombat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Nobody.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Nobody.Designer.cs">
+      <DependentUpon>Nobody.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Peter_Rabbit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Peter_Rabbit2.Designer.cs">
+      <DependentUpon>Peter_Rabbit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Raya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Raya.Designer.cs">
+      <DependentUpon>Raya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Space.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Space.Designer.cs">
+      <DependentUpon>Space.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Stowaway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Stowaway.Designer.cs">
+      <DependentUpon>Stowaway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\The_Forever_Purge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\The_Forever_Purge.Designer.cs">
+      <DependentUpon>The_Forever_Purge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Transformania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Transformania.Designer.cs">
+      <DependentUpon>Transformania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesInfo\Venom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesInfo\Venom.Designer.cs">
+      <DependentUpon>Venom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesList\Form_Movies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesList\Form_Movies.Designer.cs">
       <DependentUpon>Form_Movies.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Search.cs">
@@ -103,6 +193,18 @@
     <Compile Include="Form_Terms.Designer.cs">
       <DependentUpon>Form_Terms.cs</DependentUpon>
     </Compile>
+    <Compile Include="MoviesList\Form_Movies2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesList\Form_Movies2.Designer.cs">
+      <DependentUpon>Form_Movies2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesList\Form_Movies3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesList\Form_Movies3.Designer.cs">
+      <DependentUpon>Form_Movies3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_Forgot.resx">
@@ -114,7 +216,52 @@
     <EmbeddedResource Include="Form_MainUser.resx">
       <DependentUpon>Form_MainUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Movies.resx">
+    <EmbeddedResource Include="MoviesInfo\6_Minutes_Till_Daylight.resx">
+      <DependentUpon>6_Minutes_Till_Daylight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Black_Widow.resx">
+      <DependentUpon>Black_Widow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\F9.resx">
+      <DependentUpon>F9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Godzilla_vs_Kong.resx">
+      <DependentUpon>Godzilla_vs_Kong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Jungle_Cruise.resx">
+      <DependentUpon>Jungle_Cruise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Killer_Among_Us.resx">
+      <DependentUpon>Killer_Among_Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Mortal_Kombat.resx">
+      <DependentUpon>Mortal_Kombat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Nobody.resx">
+      <DependentUpon>Nobody.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Peter_Rabbit2.resx">
+      <DependentUpon>Peter_Rabbit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Raya.resx">
+      <DependentUpon>Raya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Space.resx">
+      <DependentUpon>Space.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Stowaway.resx">
+      <DependentUpon>Stowaway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\The_Forever_Purge.resx">
+      <DependentUpon>The_Forever_Purge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Transformania.resx">
+      <DependentUpon>Transformania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesInfo\Venom.resx">
+      <DependentUpon>Venom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesList\Form_Movies.resx">
       <DependentUpon>Form_Movies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Search.resx">
@@ -122,6 +269,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Terms.resx">
       <DependentUpon>Form_Terms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesList\Form_Movies2.resx">
+      <DependentUpon>Form_Movies2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesList\Form_Movies3.resx">
+      <DependentUpon>Form_Movies3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
