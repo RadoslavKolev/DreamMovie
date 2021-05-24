@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Accounts.Designer.cs">
+      <DependentUpon>Form_Accounts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Forgot.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,12 @@
     <Compile Include="Form_MainUser.Designer.cs">
       <DependentUpon>Form_MainUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_MoviesAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MoviesAdmin.Designer.cs">
+      <DependentUpon>Form_MoviesAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MoviesDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -94,6 +106,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MoviesDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MoviesDataSet2.xsd</DependentUpon>
     </Compile>
     <Compile Include="MoviesInfo\6_Minutes_Till_Daylight.cs">
       <SubType>Form</SubType>
@@ -235,14 +252,23 @@
     <Compile Include="Search\Year.Designer.cs">
       <DependentUpon>Year.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form_Accounts.resx">
+      <DependentUpon>Form_Accounts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Forgot.resx">
       <DependentUpon>Form_Forgot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_MainAdmin.resx">
+      <DependentUpon>Form_MainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_MainUser.resx">
       <DependentUpon>Form_MainUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MoviesAdmin.resx">
+      <DependentUpon>Form_MoviesAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MoviesInfo\6_Minutes_Till_Daylight.resx">
       <DependentUpon>6_Minutes_Till_Daylight.cs</DependentUpon>
@@ -343,6 +369,17 @@
     </None>
     <None Include="MoviesDataSet1.xss">
       <DependentUpon>MoviesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MoviesDataSet2.xsc">
+      <DependentUpon>MoviesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MoviesDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MoviesDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MoviesDataSet2.xss">
+      <DependentUpon>MoviesDataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
