@@ -65,7 +65,6 @@ namespace DreamMovie
                     else
                     {
                         MessageBox.Show("Login Successfull!", "Login Success");
-                        //Form_Login.LoginName = textBox1.Text;
                         Form_MainUser user = new Form_MainUser();
                         user.Show();
                         this.Hide();
